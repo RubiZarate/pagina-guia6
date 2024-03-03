@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/stylescarrito.css">
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo_tanfresco.png" alt="Logo de tu sitio web" height="200px" width="300px">
+    </div>
+    <h1>Todos los productos en un solo lugar</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+<!-- Sección de productos -->
+
+<section class="productos">
+    <div class="producto">
+        <img src="Imagenes/verduras/tomates.jpg" alt="Producto 1">
+        <h3>Tomates</h3>
+        <p>Tomates frescos</p>
+        <p>Precio: 5000 kg</p>
+    </div>
+    <div class="producto">
+        <img src="Imagenes/snacks/almendra.jpg" alt="Producto 2">
+        <h3>Almendra</h3>
+        <p>Almendra Seleccionada</p>
+        <p>Precio: 6000 lb</p>
+    </div>
+        <div class="producto">
+        <img src="Imagenes/frutas/peras.jpg" alt="Producto 1">
+        <h3>Peras</h3>
+        <p>Peras Frescas</p>
+        <p>Precio: 4000 lb</p>
+    </div>
+        <div class="producto">
+        <img src="Imagenes/verduras/zanahorias.jpg" alt="Producto 1">
+        <h3>Zanahorias</h3>
+        <p>Zanahorias Frescas</p>
+        <p>Precio: 2000 lb</p>
+    </div>    
+    <div class="producto">
+        <img src="Imagenes/snacks/uva pasa.jpg" alt="Producto 1">
+        <h3>Uvas Pasas</h3>
+        <p>Uvas Pasas Seleccionadas</p>
+        <p>Precio: 5000 lb</p>
+    </div>    
+    <div class="producto">
+        <img src="Imagenes/frutas/banano.jpg" alt="Producto 1">
+        <h3>Banano</h3>
+        <p>Banano Seleccionado</p>
+        <p>Precio: 5000 kg</p>
+    </div>
+    <!-- Agrega más productos según sea necesario -->
+</section>
+
+
+<div class="container">
+  <h1>Carrito de Compras</h1>
+  <div id="products">
+    <div class="product">
+      <span>Tomates: </span>
+      <button class="add-to-cart" data-price="5000">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <span>Almendra: </span>
+      <button class="add-to-cart" data-price="6000">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <span>Peras: </span>
+      <button class="add-to-cart" data-price="4000">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <span>Zanahorias: </span>
+      <button class="add-to-cart" data-price="2000">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <span>Uvas Pasas: </span>
+      <button class="add-to-cart" data-price="5000">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <span>Banano: </span>
+      <button class="add-to-cart" data-price="5000">Agregar al carrito</button>
+    </div>
+  </div>
+  <div id="cart">
+    <h2>Carrito</h2>
+    <ul id="cart-items">
+    </ul>
+    <p>Total: <span id="cart-total">0</span></p>
+    <button id="checkout-btn">Comprar</button>
+  </div>
+</div>
+
+
+
+
+<footer>
+    <div class="redes-sociales">
+        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <!-- Agrega más enlaces a redes sociales según sea necesario -->
+    </div>
+    <p>Derechos de autor &copy; 2023 - Empresa Tan Fresco</p>
+</footer>
+
+
+
+<script src="js/script.js"></script>
+<script src="js/scriptcarrito.js"></script>
+</body>
+</html>

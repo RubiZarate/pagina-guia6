@@ -1,0 +1,39 @@
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+  justify-content: center;
+
+
+}
+
+.product {
+  margin-bottom: 10px;    
+}
+
+
+#cart {
+  border-top: 2px solid #64B230;
+  padding-top: 10px;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  margin-bottom: 5px;
+}
+
+#checkout-btn {
+  display: block;
+  margin-top: 10px;
+  background-color: #64B230;
+}
+
+.add-to-cart{
+    background-color: #64B230;
+}

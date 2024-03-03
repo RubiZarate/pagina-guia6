@@ -1,0 +1,44 @@
+ /*calificación del servicio*/
+
+ .star-rating {
+  display: inline-block;
+  font-size: 100px;
+  padding-left: 100px;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  float: right;
+  cursor: pointer;
+  padding: 0 0.1em;
+}
+
+.star-rating label:before {
+  content: '★';
+  font-size: 2em;
+}
+
+.star-rating input[type="radio"]:checked ~ label:before {
+  color: gold;
+}
+
+section {
+
+  justify-content: center;
+  text-align: center;
+}
+
+section h1{
+
+  font-size: 50px;
+}
+
+div h2{
+
+  font-size: 30px;
+  text-align: center;
+
+}
