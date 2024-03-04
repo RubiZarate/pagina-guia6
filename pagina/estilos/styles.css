@@ -170,3 +170,13 @@ footer {
   line-height: 1.6;
   color: #333;
 }
+
+/* Otras clases personalizadas */
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 40px;
+}
