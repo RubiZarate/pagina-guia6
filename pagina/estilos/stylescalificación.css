@@ -1,6 +1,6 @@
- /*calificación del servicio*/
+/*calificación del servicio*/
 
- .star-rating {
+.star-rating {
   display: inline-block;
   font-size: 100px;
   padding-left: 100px;
@@ -17,7 +17,7 @@
 }
 
 .star-rating label:before {
-  content: '★';
+  content: "★";
   font-size: 2em;
 }
 
@@ -26,19 +26,15 @@
 }
 
 section {
-
   justify-content: center;
   text-align: center;
 }
 
-section h1{
-
+section h1 {
   font-size: 50px;
 }
 
-div h2{
-
+div h2 {
   font-size: 30px;
   text-align: center;
-
 }
