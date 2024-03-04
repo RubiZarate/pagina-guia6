@@ -180,3 +180,11 @@ footer {
   padding: 20px;
   margin: 40px;
 }
+
+#cart-items,
+#checkout-btn {
+  display: flex;
+  flex-direction: column; /* Cambio importante: Mostrar los elementos como una lista vertical */
+  align-items: center;
+  text-align: center;
+}
